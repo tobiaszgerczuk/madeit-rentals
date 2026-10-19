@@ -30,7 +30,7 @@ Madeit Rentals turns a simple WooCommerce product into something customers can r
 
 **Madeit Rentals Pro**
 
-An optional add-on from WCO Labs (sold separately at [labs.madeit.pl/en](https://labs.madeit.pl/en/plugins/madeit-rentals-pro)) adds seasonal prices and long-stay discounts, refundable deposits and partial prepayment, buffer days between bookings, a minimum lead time and booking horizon, and editable customer-facing texts. The free plugin is complete on its own and does not contact any external service.
+An optional add-on from WCO Labs (sold separately at [labs.made-it.pl/en](https://labs.made-it.pl/en/plugins/madeit-rentals-pro)) adds seasonal prices and long-stay discounts, refundable deposits and partial prepayment, buffer days between bookings, a minimum lead time and booking horizon, and editable customer-facing texts. The free plugin is complete on its own and does not contact any external service.
 
 == Installation ==
 

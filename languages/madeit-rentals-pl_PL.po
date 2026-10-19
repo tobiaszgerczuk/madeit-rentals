@@ -1,0 +1,563 @@
+# Copyright (C) 2026 WCO Labs
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Madeit Rentals 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/madeit-rentals\n"
+"Last-Translator: WCO Labs <sklep@wco-labs.pl>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-19T06:48:04+00:00\n"
+"PO-Revision-Date: 2026-10-19 12:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: madeit-rentals\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: madeit-rentals.php
+#: src/Admin.php:28
+msgid "Madeit Rentals"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: madeit-rentals.php
+msgid "https://wco-labs.pl/en/madeit-rentals"
+msgstr ""
+
+#. Description of the plugin
+#: madeit-rentals.php
+msgid "Night-based rentals and bookings for WooCommerce, with an availability calendar on the product page."
+msgstr "Rezerwacje i wynajem na noce w WooCommerce, z kalendarzem dostępności na stronie produktu."
+
+#. Author of the plugin
+#: madeit-rentals.php
+msgid "WCO Labs"
+msgstr ""
+
+#. Author URI of the plugin
+#: madeit-rentals.php
+msgid "https://wco-labs.pl/en"
+msgstr ""
+
+#: src/Admin.php:29
+#: src/Admin.php:90
+msgid "Bookings"
+msgstr "Rezerwacje"
+
+#: src/Admin.php:30
+#: src/Admin.php:39
+#: src/Admin.php:93
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: src/Admin.php:61
+#: src/Admin.php:236
+msgid "Products"
+msgstr "Produkty"
+
+#: src/Admin.php:62
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: src/Admin.php:71
+#: src/Admin.php:155
+#: src/Admin.php:350
+#: src/Admin.php:366
+msgid "You do not have permission to do this."
+msgstr "Brak uprawnień."
+
+#: src/Admin.php:89
+msgid "MADEIT RENTALS / MANAGEMENT"
+msgstr "MADEIT RENTALS / ZARZĄDZANIE"
+
+#: src/Admin.php:91
+msgid "Pick-ups, returns and deposits in one place. A booking is created with the order and blocks units in the calendar."
+msgstr "Odbiory, zwroty i kaucje w jednym miejscu. Rezerwacja powstaje przy zamówieniu i blokuje sztuki w kalendarzu."
+
+#: src/Admin.php:97
+#: src/Admin.php:179
+msgid "Upcoming bookings"
+msgstr "Nadchodzące rezerwacje"
+
+#: src/Admin.php:98
+msgid "Picked up (with customers)"
+msgstr "Wydane (u klientów)"
+
+#: src/Admin.php:99
+msgid "Next pick-up"
+msgstr "Najbliższy odbiór"
+
+#: src/Admin.php:99
+msgid "none"
+msgstr "brak"
+
+#: src/Admin.php:108
+msgid "Booking list"
+msgstr "Lista rezerwacji"
+
+#. translators: %s: number of results
+#: src/Admin.php:109
+#, php-format
+msgid "Results: %s"
+msgstr "Wyniki: %s"
+
+#: src/Admin.php:113
+msgid "Search by booking, order or product ID"
+msgstr "Szukaj po ID rezerwacji, zamówienia lub produktu"
+
+#: src/Admin.php:113
+msgid "For example 54"
+msgstr "Np. 54"
+
+#. translators: %s: product ID
+#: src/Admin.php:114
+#: src/Admin.php:255
+#: src/Admin.php:407
+#: src/Admin.php:450
+msgid "Status"
+msgstr "Status"
+
+#: src/Admin.php:115
+msgid "All"
+msgstr "Wszystkie"
+
+#: src/Admin.php:120
+msgid "Show results"
+msgstr "Pokaż wyniki"
+
+#: src/Admin.php:122
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: src/Admin.php:126
+msgid "No bookings"
+msgstr "Brak rezerwacji"
+
+#: src/Admin.php:126
+msgid "Change the filters or wait for the first order with a rental."
+msgstr "Zmień filtry albo poczekaj na pierwsze zamówienie z wynajmem."
+
+#. translators: 1: current page, 2: total pages
+#: src/Admin.php:137
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Strona %1$s z %2$s"
+
+#: src/Admin.php:140
+msgid "Previous"
+msgstr "Poprzednia"
+
+#: src/Admin.php:143
+msgid "Next"
+msgstr "Następna"
+
+#: src/Admin.php:170
+msgid "MADEIT RENTALS / CONFIGURATION"
+msgstr "MADEIT RENTALS / KONFIGURACJA"
+
+#: src/Admin.php:171
+msgid "Rentals"
+msgstr "Wynajem"
+
+#: src/Admin.php:172
+msgid "Set up the rental products and the look of the calendar on the product page."
+msgstr "Ustaw produkty na wynajem i wygląd kalendarza na stronie produktu."
+
+#: src/Admin.php:178
+#: src/Admin.php:233
+msgid "Rental products"
+msgstr "Produkty na wynajem"
+
+#: src/Admin.php:180
+msgid "Lead time / horizon"
+msgstr "Wyprzedzenie / horyzont"
+
+#. translators: 1: lead time in days, 2: booking horizon
+#: src/Admin.php:184
+#, php-format
+msgid "%1$s days / %2$s"
+msgstr "%1$s dni / %2$s"
+
+#: src/Admin.php:186
+msgid "no limit"
+msgstr "bez limitu"
+
+#. translators: %s: number of days
+#: src/Admin.php:186
+#, php-format
+msgid "%s days"
+msgstr "%s dni"
+
+#: src/Admin.php:191
+msgid "Rental settings"
+msgstr "Ustawienia wynajmu"
+
+#: src/Admin.php:234
+msgid "Tick “Rental” in the product data, in the General section. The regular price is the price for one night. Units and night limits are set in the product."
+msgstr "Zaznacz „Wynajem” w danych produktu, w sekcji Ogólne. Cena regularna to cena za jedną noc. Liczbę sztuk i limity nocy ustawiasz w produkcie."
+
+#: src/Admin.php:239
+msgid "No rental products"
+msgstr "Brak produktów na wynajem"
+
+#: src/Admin.php:239
+msgid "Edit a simple product and tick “Rental”."
+msgstr "Edytuj prosty produkt i zaznacz „Wynajem”."
+
+#. translators: 1: number of units, 2: minimum nights, for example "2 nights"
+#: src/Admin.php:245
+#, php-format
+msgid "%1$d units, from %2$s"
+msgstr "%1$d szt., od %2$s"
+
+#. translators: 1: number of units, 2: minimum nights, for example "2 nights"
+#: src/Admin.php:246
+msgid "Price"
+msgstr "Cena"
+
+#. translators: %s: price
+#: src/Admin.php:249
+#, php-format
+msgid "%s / night"
+msgstr "%s / noc"
+
+#: src/Admin.php:251
+msgid "no price"
+msgstr "brak ceny"
+
+#: src/Admin.php:255
+msgid "Published"
+msgstr "Opublikowany"
+
+#: src/Admin.php:255
+msgid "Draft"
+msgstr "Szkic"
+
+#: src/Admin.php:256
+#: src/Plugin.php:57
+msgid "Maximum nights"
+msgstr "Maksymalna liczba nocy"
+
+#: src/Admin.php:257
+msgid "Edit"
+msgstr "Edytuj"
+
+#. translators: %s: link to the Pro add-on page
+#: src/Admin.php:267
+#, php-format
+msgid "Need seasonal prices, deposits, buffers between bookings or booking windows? %s adds them."
+msgstr "Potrzebujesz cen sezonowych, kaucji, buforów między rezerwacjami lub okien rezerwacji? Dodaje je %s."
+
+#: src/Admin.php:268
+msgid "Madeit Rentals Pro"
+msgstr "Madeit Rentals Pro"
+
+#: src/Admin.php:284
+msgid "Calendar appearance"
+msgstr "Wygląd kalendarza"
+
+#: src/Admin.php:284
+msgid "The accent colour of the calendar and the price summary on the product page."
+msgstr "Kolor akcentu kalendarza i podsumowania ceny na stronie produktu."
+
+#: src/Admin.php:289
+msgid "Accent colour"
+msgstr "Kolor akcentu"
+
+#: src/Admin.php:290
+msgid "Show the price summary below the calendar"
+msgstr "Pokazuj podsumowanie ceny pod kalendarzem"
+
+#: src/Admin.php:291
+msgid "Save appearance"
+msgstr "Zapisz wygląd"
+
+#: src/Admin.php:310
+msgid "Product page preview"
+msgstr "Podgląd na stronie produktu"
+
+#. translators: %s: product ID
+#: src/Admin.php:403
+#: src/Admin.php:449
+#, php-format
+msgid "Product #%s"
+msgstr "Produkt #%s"
+
+#. translators: 1: order number, 2: number of units
+#: src/Admin.php:404
+#, php-format
+msgid "Order #%1$s · %2$s units"
+msgstr "Zamówienie #%1$s · %2$s szt."
+
+#: src/Admin.php:406
+msgid "Dates"
+msgstr "Termin"
+
+#: src/Admin.php:408
+msgid "Created"
+msgstr "Utworzona"
+
+#: src/Admin.php:409
+msgid "Details"
+msgstr "Szczegóły"
+
+#. translators: %s: booking ID
+#: src/Admin.php:419
+#, php-format
+msgid "Booking #%s not found."
+msgstr "Nie znaleziono rezerwacji #%s."
+
+#: src/Admin.php:431
+msgid "Confirm manually"
+msgstr "Potwierdź ręcznie"
+
+#: src/Admin.php:434
+msgid "Mark as picked up"
+msgstr "Oznacz jako wydaną"
+
+#: src/Admin.php:437
+msgid "Mark as returned"
+msgstr "Oznacz jako zwróconą"
+
+#: src/Admin.php:440
+msgid "Cancel booking"
+msgstr "Anuluj rezerwację"
+
+#: src/Admin.php:445
+msgid "BOOKING DETAILS"
+msgstr "SZCZEGÓŁY REZERWACJI"
+
+#. translators: %s: booking ID
+#: src/Admin.php:445
+#, php-format
+msgid "Booking #%s"
+msgstr "Rezerwacja #%s"
+
+#. translators: %s: booking ID
+#: src/Admin.php:446
+msgid "Close"
+msgstr "Zamknij"
+
+#: src/Admin.php:449
+msgid "Product"
+msgstr "Produkt"
+
+#: src/Admin.php:451
+msgid "Units"
+msgstr "Liczba sztuk"
+
+#: src/Admin.php:452
+#: src/Plugin.php:480
+#: src/Plugin.php:563
+msgid "Pick-up"
+msgstr "Odbiór"
+
+#: src/Admin.php:453
+#: src/Plugin.php:481
+#: src/Plugin.php:564
+msgid "Return"
+msgstr "Zwrot"
+
+#: src/Admin.php:454
+msgid "Order"
+msgstr "Zamówienie"
+
+#: src/Admin.php:516
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+#: src/Admin.php:516
+msgid "Booking updated."
+msgstr "Rezerwacja zaktualizowana."
+
+#: src/Plugin.php:54
+#: src/Settings.php:26
+msgid "Rental"
+msgstr "Wynajem"
+
+#: src/Plugin.php:54
+msgid "The product is rented by the night. The regular price is the price for one night for one unit."
+msgstr "Produkt jest wynajmowany na noce. Cena regularna to cena za jedną noc za jedną sztukę."
+
+#: src/Plugin.php:55
+msgid "Units available to rent"
+msgstr "Liczba sztuk do wynajęcia"
+
+#: src/Plugin.php:55
+msgid "How many units can be rented at the same time."
+msgstr "Ile sztuk można wynająć jednocześnie."
+
+#: src/Plugin.php:56
+msgid "Minimum nights"
+msgstr "Minimalna liczba nocy"
+
+#: src/Plugin.php:57
+msgid "0 means no limit."
+msgstr "0 oznacza brak limitu."
+
+#. translators: %d: number of units
+#: src/Plugin.php:135
+#, php-format
+msgid "At most %d unit of this product is available."
+msgid_plural "At most %d units of this product are available."
+msgstr[0] "Dostępna jest maksymalnie %d sztuka tego produktu."
+msgstr[1] "Dostępne są maksymalnie %d sztuki tego produktu."
+msgstr[2] "Dostępnych jest maksymalnie %d sztuk tego produktu."
+
+#: src/Plugin.php:154
+msgid "The return date must be later than the pick-up date."
+msgstr "Data zwrotu musi być późniejsza niż data odbioru."
+
+#. translators: %s: number of nights, for example "2 nights"
+#: src/Plugin.php:156
+#, php-format
+msgid "The minimum rental period is %s."
+msgstr "Minimalny czas wynajmu to %s."
+
+#. translators: %s: number of nights, for example "7 nights"
+#: src/Plugin.php:158
+#, php-format
+msgid "The maximum rental period is %s."
+msgstr "Maksymalny czas wynajmu to %s."
+
+#. translators: %s: date
+#: src/Plugin.php:160
+#, php-format
+msgid "The earliest possible pick-up is %s."
+msgstr "Najwcześniejszy możliwy odbiór to %s."
+
+#. translators: %s: number of nights, for example "365 nights"
+#: src/Plugin.php:162
+#, php-format
+msgid "Bookings are accepted at most %s ahead."
+msgstr "Rezerwacje są przyjmowane maksymalnie %s naprzód."
+
+#: src/Plugin.php:163
+msgid "Choose valid pick-up and return dates."
+msgstr "Wybierz poprawne daty odbioru i zwrotu."
+
+#: src/Plugin.php:194
+#: src/Plugin.php:219
+msgid "This is not a rental product."
+msgstr "To nie jest produkt do wynajęcia."
+
+#: src/Plugin.php:284
+msgid "Previous month"
+msgstr "Poprzedni miesiąc"
+
+#: src/Plugin.php:285
+msgid "Next month"
+msgstr "Następny miesiąc"
+
+#: src/Plugin.php:286
+msgid "Could not check the dates. Please try again."
+msgstr "Nie udało się sprawdzić terminu. Spróbuj ponownie."
+
+#: src/Plugin.php:287
+#: src/Plugin.php:380
+msgid "Choose the pick-up and return dates."
+msgstr "Wybierz daty odbioru i zwrotu."
+
+#: src/Plugin.php:288
+msgid "Could not load the calendar. Refresh the page."
+msgstr "Nie udało się wczytać kalendarza. Odśwież stronę."
+
+#. translators: %d: maximum number of units
+#: src/Plugin.php:297
+#, php-format
+msgid "max. %d"
+msgstr "maks. %d"
+
+#. translators: %s: product name
+#: src/Plugin.php:500
+#, php-format
+msgid "%s: choose the pick-up and return dates on the product page."
+msgstr "%s: wybierz daty odbioru i zwrotu na stronie produktu."
+
+#: src/Repository.php:29
+msgid "Awaiting payment"
+msgstr "Oczekuje na płatność"
+
+#: src/Repository.php:30
+msgid "Confirmed"
+msgstr "Potwierdzona"
+
+#: src/Repository.php:31
+msgid "Picked up"
+msgstr "Wydana"
+
+#: src/Repository.php:32
+msgid "Returned"
+msgstr "Zwrócona"
+
+#: src/Repository.php:33
+msgid "Cancelled"
+msgstr "Anulowana"
+
+#: src/Settings.php:20
+msgid "Choose your rental dates"
+msgstr "Wybierz termin wynajmu"
+
+#: src/Settings.php:21
+msgid "Choose the pick-up date."
+msgstr "Wybierz datę odbioru."
+
+#: src/Settings.php:22
+msgid "Now choose the return date."
+msgstr "Teraz wybierz datę zwrotu."
+
+#: src/Settings.php:23
+msgid "Quantity"
+msgstr "Liczba sztuk"
+
+#: src/Settings.php:24
+msgid "/ night"
+msgstr "/ noc"
+
+#: src/Settings.php:25
+msgid "Nights"
+msgstr "Liczba nocy"
+
+#: src/Settings.php:27
+msgid "Long stay discount"
+msgstr "Rabat za dłuższy pobyt"
+
+#: src/Settings.php:28
+msgid "Prepayment due now"
+msgstr "Zaliczka płatna teraz"
+
+#: src/Settings.php:29
+msgid "Due at pick-up"
+msgstr "Do zapłaty przy odbiorze"
+
+#: src/Settings.php:30
+msgid "Refundable deposit"
+msgstr "Kaucja zwrotna"
+
+#: src/Settings.php:31
+msgid "Due now"
+msgstr "Do zapłaty teraz"
+
+#: src/Settings.php:32
+msgid "Book these dates"
+msgstr "Zarezerwuj termin"
+
+#: src/Settings.php:33
+msgid "Choose dates"
+msgstr "Wybierz termin"
+
+#: src/Settings.php:34
+msgid "These dates are not available. Choose other dates."
+msgstr "Ten termin jest niedostępny. Wybierz inne daty."
+
+#. translators: %d: number of nights
+#: src/Settings.php:114
+#, php-format
+msgid "%d night"
+msgid_plural "%d nights"
+msgstr[0] "%d noc"
+msgstr[1] "%d noce"
+msgstr[2] "%d nocy"

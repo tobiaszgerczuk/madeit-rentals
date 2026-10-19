@@ -5,7 +5,7 @@ Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.0
 Requires Plugins: woocommerce
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,9 @@ The bookings table is kept so you do not lose your booking history.
 
 == Changelog ==
 
+= 1.0.3 =
+* Removed "Tested up to" from the plugin header. No functional changes.
+
 = 1.0.2 =
 * Readme: the contributor is now the WordPress.org user madeitpl. No functional changes.
 
@@ -80,6 +83,9 @@ The bookings table is kept so you do not lose your booking history.
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+No functional changes.
 
 = 1.0.2 =
 Readme update only. No functional changes.

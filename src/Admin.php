@@ -180,10 +180,10 @@ final class Admin
                 <div class="madeit-stat madeit-stat-note"><span><?php esc_html_e('Lead time / horizon', 'madeit-rentals'); ?></span><strong>
                     <?php
                     echo esc_html(sprintf(
-                        /* translators: 1: lead time in days, 2: booking horizon */
-                        __('%1$s days / %2$s', 'madeit-rentals'),
-                        $settings['lead_days'],
-                        $settings['horizon_days'] === '0' ? __('no limit', 'madeit-rentals') : sprintf(/* translators: %s: number of days */ __('%s days', 'madeit-rentals'), $settings['horizon_days'])
+                        /* translators: 1: lead time, for example "1 day", 2: booking horizon, for example "365 days" or "no limit" */
+                        __('%1$s / %2$s', 'madeit-rentals'),
+                        sprintf(/* translators: %s: number of days */ _n('%s day', '%s days', (int) $settings['lead_days'], 'madeit-rentals'), $settings['lead_days']),
+                        $settings['horizon_days'] === '0' ? __('no limit', 'madeit-rentals') : sprintf(/* translators: %s: number of days */ _n('%s day', '%s days', (int) $settings['horizon_days'], 'madeit-rentals'), $settings['horizon_days'])
                     ));
                     ?>
                 </strong></div>
@@ -242,7 +242,7 @@ final class Admin
                     <?php foreach ($products as $product) { ?>
                         <?php $config = Settings::config($product); ?>
                         <article class="madeit-row">
-                            <div class="madeit-row-identity"><strong><?php echo esc_html($product->get_name()); ?></strong><small><?php echo esc_html(sprintf(/* translators: 1: number of units, 2: minimum nights, for example "2 nights" */ __('%1$d units, from %2$s', 'madeit-rentals'), $config['units'], Settings::nightsText($config['min_nights']))); ?></small></div>
+                            <div class="madeit-row-identity"><strong><?php echo esc_html($product->get_name()); ?></strong><small><?php echo esc_html(sprintf(/* translators: 1: number of units, 2: minimum nights, for example "2 nights" */ _n('%1$d unit, from %2$s', '%1$d units, from %2$s', $config['units'], 'madeit-rentals'), $config['units'], Settings::nightsText($config['min_nights']))); ?></small></div>
                             <div class="madeit-row-balance"><span class="madeit-cell-label"><?php esc_html_e('Price', 'madeit-rentals'); ?></span><strong>
                                 <?php
                                 if ($product->get_price() !== '') {
@@ -401,7 +401,7 @@ final class Admin
             <div class="madeit-row-identity">
                 <span class="madeit-row-number">#<?php echo esc_html((string) $row['id']); ?></span>
                 <strong><?php echo esc_html($product ? $product->get_name() : sprintf(/* translators: %s: product ID */ __('Product #%s', 'madeit-rentals'), $row['product_id'])); ?></strong>
-                <small><?php echo esc_html(sprintf(/* translators: 1: order number, 2: number of units */ __('Order #%1$s · %2$s units', 'madeit-rentals'), (string) $row['order_id'], (string) $row['quantity'])); ?></small>
+                <small><?php echo esc_html(sprintf(/* translators: 1: order number, 2: number of units */ _n('Order #%1$s · %2$s unit', 'Order #%1$s · %2$s units', (int) $row['quantity'], 'madeit-rentals'), (string) $row['order_id'], (string) $row['quantity'])); ?></small>
             </div>
             <div class="madeit-row-balance"><span class="madeit-cell-label"><?php esc_html_e('Dates', 'madeit-rentals'); ?></span><strong><?php echo esc_html(Settings::formatDate((string) $row['start_date']).' → '.Settings::formatDate((string) $row['end_date'])); ?></strong><small><?php echo esc_html(Settings::nightsText($nights)); ?></small></div>
             <div class="madeit-row-status"><span class="madeit-cell-label"><?php esc_html_e('Status', 'madeit-rentals'); ?></span><span class="madeit-badge madeit-badge-<?php echo esc_attr($tone); ?>"><?php echo esc_html($label); ?></span></div>

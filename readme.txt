@@ -1,4 +1,4 @@
-=== Madeit Rentals ===
+=== MadeIT Rentals ===
 Contributors: wcolabs
 Tags: woocommerce, rental, booking, reservation, calendar
 Requires at least: 6.6
@@ -13,7 +13,7 @@ Night-based rentals and bookings for WooCommerce, with an availability calendar 
 
 == Description ==
 
-Madeit Rentals turns a simple WooCommerce product into something customers can rent by the night: equipment, vehicles, holiday cottages, costumes. Customers pick the pick-up and return dates in a calendar that already hides the dates that are taken, see the price straight away and check out like any other order.
+MadeIT Rentals turns a simple WooCommerce product into something customers can rent by the night: equipment, vehicles, holiday cottages, costumes. Customers pick the pick-up and return dates in a calendar that already hides the dates that are taken, see the price straight away and check out like any other order.
 
 **Features**
 
@@ -28,7 +28,7 @@ Madeit Rentals turns a simple WooCommerce product into something customers can r
 * Accent colour setting for the calendar.
 * Fully translatable.
 
-**Madeit Rentals Pro**
+**MadeIT Rentals Pro**
 
 An optional add-on from WCO Labs (sold separately at [labs.made-it.pl/en](https://labs.made-it.pl/en/plugins/madeit-rentals-pro)) adds seasonal prices and long-stay discounts, refundable deposits and partial prepayment, buffer days between bookings, a minimum lead time and booking horizon, and editable customer-facing texts. The free plugin is complete on its own and does not contact any external service.
 
@@ -37,7 +37,7 @@ An optional add-on from WCO Labs (sold separately at [labs.made-it.pl/en](https:
 1. Make sure WooCommerce is installed and active.
 2. Upload the plugin to `/wp-content/plugins/` or install it from the Plugins screen, then activate it.
 3. Edit a simple product, open the General tab of Product data and tick "Rental". Set the regular price to the price for one night and the number of units.
-4. Open Madeit Rentals → Settings to choose the calendar colour.
+4. Open MadeIT Rentals → Settings to choose the calendar colour.
 
 == Frequently Asked Questions ==
 

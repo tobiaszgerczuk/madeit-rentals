@@ -25,7 +25,7 @@ final class Admin
 
     public function menu(): void
     {
-        add_menu_page(__('Madeit Rentals', 'madeit-rentals'), __('Madeit Rentals', 'madeit-rentals'), 'manage_woocommerce', self::PAGE, [$this, 'renderBookings'], 'dashicons-calendar-alt', 58);
+        add_menu_page(__('MadeIT Rentals', 'madeit-rentals'), __('MadeIT Rentals', 'madeit-rentals'), 'manage_woocommerce', self::PAGE, [$this, 'renderBookings'], 'dashicons-calendar-alt', 58);
         add_submenu_page(self::PAGE, __('Bookings', 'madeit-rentals'), __('Bookings', 'madeit-rentals'), 'manage_woocommerce', self::PAGE, [$this, 'renderBookings']);
         add_submenu_page(self::PAGE, __('Settings', 'madeit-rentals'), __('Settings', 'madeit-rentals'), 'manage_woocommerce', self::SETTINGS_PAGE, [$this, 'renderSettings']);
     }
@@ -265,7 +265,7 @@ final class Admin
                     printf(
                         /* translators: %s: link to the Pro add-on page */
                         esc_html__('Need seasonal prices, deposits, buffers between bookings or booking windows? %s adds them.', 'madeit-rentals'),
-                        '<a href="'.esc_url(self::UPGRADE_URL).'" target="_blank" rel="noopener">'.esc_html__('Madeit Rentals Pro', 'madeit-rentals').'</a>'
+                        '<a href="'.esc_url(self::UPGRADE_URL).'" target="_blank" rel="noopener">'.esc_html__('MadeIT Rentals Pro', 'madeit-rentals').'</a>'
                     );
                     ?>
                 </p>

@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Madeit Rentals 1.0.0\n"
+"Project-Id-Version: MadeIT Rentals 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/madeit-rentals\n"
 "Last-Translator: WCO Labs <sklep@wco-labs.pl>\n"
 "Language-Team: Polish\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: madeit-rentals.php
 #: src/Admin.php:28
-msgid "Madeit Rentals"
+msgid "MadeIT Rentals"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -260,8 +260,8 @@ msgid "Need seasonal prices, deposits, buffers between bookings or booking windo
 msgstr "Potrzebujesz cen sezonowych, kaucji, buforów między rezerwacjami lub okien rezerwacji? Dodaje je %s."
 
 #: src/Admin.php:268
-msgid "Madeit Rentals Pro"
-msgstr "Madeit Rentals Pro"
+msgid "MadeIT Rentals Pro"
+msgstr "MadeIT Rentals Pro"
 
 #: src/Admin.php:284
 msgid "Calendar appearance"

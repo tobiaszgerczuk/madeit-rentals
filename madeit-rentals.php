@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Madeit Rentals
+ * Plugin Name: MadeIT Rentals
  * Plugin URI: https://labs.made-it.pl/en/plugins/madeit-rentals-pro
  * Description: Night-based rentals and bookings for WooCommerce, with an availability calendar on the product page.
  * Version: 1.0.0

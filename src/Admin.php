@@ -10,7 +10,7 @@ final class Admin
 
     public const SETTINGS_PAGE = 'madeit-rentals-settings';
 
-    public const UPGRADE_URL = 'https://wco-labs.pl/en/plugins/madeit-rentals-pro';
+    public const UPGRADE_URL = 'https://labs.madeit.pl/en/plugins/madeit-rentals-pro';
 
     public function __construct(private Repository $repository) {}
 

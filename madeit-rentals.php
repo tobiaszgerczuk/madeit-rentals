@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Madeit Rentals
- * Plugin URI: https://wco-labs.pl/en/plugins/madeit-rentals-pro
+ * Plugin URI: https://labs.madeit.pl/en/plugins/madeit-rentals-pro
  * Description: Night-based rentals and bookings for WooCommerce, with an availability calendar on the product page.
  * Version: 1.0.0
  * Requires at least: 6.6
@@ -9,7 +9,7 @@
  * Requires PHP: 8.0
  * Requires Plugins: woocommerce
  * Author: WCO Labs
- * Author URI: https://wco-labs.pl/en
+ * Author URI: https://labs.madeit.pl/en
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: madeit-rentals

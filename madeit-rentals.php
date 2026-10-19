@@ -3,7 +3,7 @@
  * Plugin Name: MadeIT Rentals
  * Plugin URI: https://labs.made-it.pl/en/plugins/madeit-rentals-pro
  * Description: Night-based rentals and bookings for WooCommerce, with an availability calendar on the product page.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.6
  * Tested up to: 7.1
  * Requires PHP: 8.0
@@ -25,7 +25,7 @@ use Madeit\Rentals\Repository;
 defined('ABSPATH') || exit;
 
 define('MADEIT_RENTALS_FILE', __FILE__);
-define('MADEIT_RENTALS_VERSION', '1.0.1');
+define('MADEIT_RENTALS_VERSION', '1.0.2');
 
 require_once __DIR__.'/src/Calculator.php';
 require_once __DIR__.'/src/Settings.php';
